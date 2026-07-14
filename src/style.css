@@ -55,7 +55,7 @@ body {
 
 .nav-links li a {
   display: block;
-  padding: 0 15px;
+  padding:0 15px;
   color: white;
   text-decoration: none;
 }
@@ -88,26 +88,31 @@ border-radius: 8px;
   .light-box {
     background-color: #e74c3c;
     color: white;
+  }
 
     /* C2: Styling for mobile */
 .layout-wrapper {
   flex-direction: column;
+  gap: 20px;
 
   .hamburger-icon {
     display: block;
   }
 }
 
+}
+
 /* C2: side-side view on desktop */
 .layout-wrapper {
   display: flex;
+  justify-content: space-between;
+  flex-direction: row;
 gap: 20px;
-}
-  }
 }
 
 .main-content {
 background-color: #3498db;
+color: white;
 padding: 20px;
 border-radius: 8px;
 text-shadow: 2px 2px 5px whitesmoke;
@@ -115,7 +120,7 @@ text-shadow: 2px 2px 5px whitesmoke;
 .sidebar {
   background-color: #2ecc71;
   padding: 20px;
-  border-radius: 8px;
+  border-radius: 20px;
   text-shadow: 2px 2px 5px white;
 }
 
