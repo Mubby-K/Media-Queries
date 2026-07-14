@@ -67,7 +67,7 @@ body {
 /* Please write your responsive codes after this comment.
 Do not delete any of the above code. */
 
-part 1 of C1 achieved(mobile view) - 1. Navbar should be responsive and should have a hamburger icon on mobile view. When the hamburger icon is clicked, the menu should be displayed in a vertical manner. The menu should be hidden by default on mobile view.
+part 1 of C1 achieved(Desktop view) - 1. Navbar should be responsive and should have a hamburger icon on mobile view. When the hamburger icon is clicked, the menu should be displayed in a vertical manner. The menu should be hidden by default on mobile view.
 .light-box {background-color:red;
 color:white;
 padding: 20px;
@@ -79,5 +79,11 @@ border-radius: 8px;
   .light-box {
     background-color: yellow;
     color: #2c3de50;
+  }
+  /* style for mobile devices */
+@media screen and (max-width: 786px) {
+  .light-box {
+    background-color: #e74c3c;
+    color: white;
   }
 }
